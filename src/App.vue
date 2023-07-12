@@ -9,6 +9,7 @@
     <ModalTeleports />
     <br><br>
     <exampleSelective />
+    <exampleFor />
   </div>
 </template>
 
@@ -20,6 +21,8 @@ import counterOption from "./components/counterOption.vue";
 import transitionIr from './components/transitionIr.vue';
 import ModalTeleports from './components/ModalTeleports.vue';
 import exampleSelective from './components/exampleSelective.vue';
+import exampleFor from './components/exampleFor.vue';
+
 
 const show = ref(false);
 </script>

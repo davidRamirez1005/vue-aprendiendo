@@ -9,15 +9,10 @@
   </transition>
 </template>
 
-<script>
-export default {
-  name: 'MenuBarra',
-  data() {
-    return {
-      show: false
-    };
-  }
-};
+<script setup>
+import { ref } from 'vue';
+
+const show = ref(false);
 </script>
 
 <style scoped>

@@ -5,22 +5,12 @@
 </div>
 </template>
 
-<script>
+<script setup>
 import { ref } from 'vue';
 
-export default {
-name: 'counterOption',
-setup() {
-    const counter = ref(0);
-    const addCounter = () => {
-    counter.value++;
-    };
-
-    return {
-    counter,
-    addCounter
-    };
-}
+const counter = ref(0);
+const addCounter = () => {
+counter.value++;
 };
 </script>
 

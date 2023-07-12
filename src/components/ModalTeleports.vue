@@ -10,19 +10,14 @@
         </div>
     </Teleport>
 </template>
-<script>
-    export default {
-        data() {
-                return {
-                    show: false
-                }
-            },
-            methods: {
-                toggle() {
-                    this.show =!this.show
-            }
-        }
-    }
+<script setup>
+import { ref } from 'vue';
+
+const show = ref(false);
+
+const toggle = () => {
+show.value = !show.value;
+};
 </script>
 <style scoped>
 .modal {
