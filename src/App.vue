@@ -6,6 +6,9 @@
     <counterOption />
     <transitionIr />
     <br><br>
+    <ModalTeleports />
+    <br><br>
+    <exampleSelective />
   </div>
 </template>
 
@@ -15,6 +18,8 @@ import postContainer from "./components/postContainer.vue";
 import MenuBarra from "./components/MenuBarra.vue";
 import counterOption from "./components/counterOption.vue";
 import transitionIr from './components/transitionIr.vue';
+import ModalTeleports from './components/ModalTeleports.vue';
+import exampleSelective from './components/exampleSelective.vue';
 
 const show = ref(false);
 </script>
