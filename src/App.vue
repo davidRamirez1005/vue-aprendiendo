@@ -13,6 +13,7 @@
     <hasError />
     <br>
     <ModelForm />
+    <cicleOption />
 
   </div>
 </template>
@@ -27,6 +28,7 @@ import exampleSelective from './components/exampleSelective.vue';
 import exampleFor from './components/exampleFor.vue';
 import hasError from './components/classBind.vue';
 import ModelForm from './components/ModelForm.vue';
+import cicleOption from "./components/cicleOption.vue";
 
 
 
